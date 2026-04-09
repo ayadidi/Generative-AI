@@ -17,6 +17,7 @@ The second friend is a **magical painter**. You walk up to him and whisper: *"Pa
 That second friend? That is **Generative AI**.
 
 ![GenAI Concept](images/genai_concept.jpg)
+
 *Figure 1: From simple recognition to creative imagination (Source: Unsplash/Pixabay).*
 
 ---
@@ -46,43 +47,35 @@ Today, Generative AI in Computer Vision means giving a machine the ability to **
 Go to [thispersondoesnotexist.com](https://thispersondoesnotexist.com). Every face you see there is 100% fake. No photographer took that photo. No model posed. A Generative AI invented every pixel.
 
 ![GAN Face Example](images/gan_face.jpg)
+
 *Example: A hyper-realistic face created by a GAN (Source: ThisPersonDoesNotExist).*
 
 **Example 2 — Text to image**
 
-Type *"a samurai frog riding a bicycle at sunset"* into a tool like DALL·E or Stable Diffusion. Seconds later, you get a picture of exactly that. Something no human ever drew. Something that never existed — until you asked.
+Type *"a samurai frog riding a bicycle at sunset"* into a tool like DALL·E or Stable Diffusion. Seconds later, you get a picture of exactly that.
 
 ![Stable Diffusion Example](images/cat_astronaut.webp)
-*Example: A "Cat Astronaut" generated via Stable Diffusion on Hugging Face.*
+
+*Example: A "Cat Astronaut" generated via Stable Diffusion.*
 
 ---
 
 ## 2. Why use Generative AI?
 
-Think about what it would mean to have an infinitely patient, incredibly fast artist sitting next to you — one who never sleeps, never charges by the hour, and can paint anything you describe in seconds.
+Think about what it would mean to have an infinitely patient, incredibly fast artist sitting next to you. That is the promise of Generative AI. Here is why it matters:
 
-That is the promise of Generative AI. Here is why it matters:
-
-**Creativity on demand**
-Designers, game developers, and filmmakers can generate concept art, characters, and scenes instantly.
-
-**Helping AI learn faster**
-Training an IA model requires thousands of labelled images. But what if you only have fifty real photos of a rare disease? Generative AI can create thousands of realistic fake ones to fill the gap. This is called *data augmentation*.
-
-**Medicine and science**
-Doctors can generate synthetic medical scans to train diagnostic models — without needing real patient data.
+* **Creativity on demand:** Designers and filmmakers can generate scenes instantly.
+* **Helping AI learn faster:** Creating realistic fake images to fill the gap. This is called *data augmentation*.
+* **Medicine and science:** Generating synthetic medical scans to train models without needing real patient data.
 
 ![VAE Architecture](images/vae_basic.png)
-*Figure 2: Basic architecture of a VAE used to reconstruct and generate data (Source: Wikipedia Commons).*
 
-> In short: Generative AI turns imagination into raw material.
-> You think it, you describe it, and it exists.
+*Figure 2: Basic architecture of a VAE (Source: Wikipedia Commons).*
+
+> In short: Generative AI turns imagination into raw material. You think it, you describe it, and it exists.
 
 ---
 
-Now that we understand *what* Generative AI is and *why* it matters, a natural question appears:
+Now that we understand *what* Generative AI is and *why* it matters, a natural question appears: **How exactly does a machine learn to create?**
 
-> **How exactly does a machine learn to create?**
-
-The answer lies in three remarkable inventions — **GANs**, **VAEs**, and **Diffusion Models** — each with its own clever trick for teaching a computer to imagine.
-Let's meet them one by one.
+The answer lies in three remarkable inventions — **GANs**, **VAEs**, and **Diffusion Models**. Let's meet them one by one.
