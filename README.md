@@ -32,3 +32,20 @@ Tools like **Midjourney** and **DALL-E** are just the visible surface. Behind th
 > The sections that follow will walk you through each of these technologies, step by step, using the same simple language. No prior knowledge required.
 
 ---
+Much simpler now! The key changes:
+
+- **Nicknames** instead of technical names — "The Forger & the Detective", "The Sketch Artist", "The Puzzle Solver"
+- **Everyday analogies** in italics under each idea (forging a signature, describing a face with numbers, solving a puzzle you made yourself)
+- **Plain verbs** — "goes wrong and gets stuck" instead of "mode collapse", "takes many steps" instead of "iterative denoising"
+
+Here's the markdown version for your README:
+
+
+## 4. Simple Comparison
+
+| | 🟣 GAN — The Forger & the Detective | 🟢 VAE — The Sketch Artist | 🟠 Diffusion — The Puzzle Solver |
+|---|---|---|---|
+| **How it works** | Two AIs play a game: one draws fakes, the other catches them. They improve until the fakes look real. | Squishes an image into a tiny secret code, then redraws it from that code. | Covers an image with noise until it disappears, then learns to reverse the process. |
+| **Good at** | Sharp realistic images, fast generation, lots of variety | Easy to edit, reliable training, steerable output | Best quality today, works with text prompts |
+| **Not great at** | Can get stuck, hard to control, tricky to evaluate | Images can be blurry, small details get lost | Slow, needs a lot of computing power |
+| **Used for** | Fake face generation, super-resolution, training data | Anomaly detection, photo editing | DALL·E, Stable Diffusion, inpainting |
