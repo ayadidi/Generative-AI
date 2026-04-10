@@ -75,8 +75,8 @@ DreamStudio is the official web-based interface developed by Stability AI for **
 To better understand how this works, look at the transition below. The model starts with a highly pixelated and "noisy" version of the scene (the car and the city background). Through several iterations of the **Reverse Diffusion** process, it intelligently predicts what the details should look like, gradually sharpening the edges and textures until a clear, high-quality image is revealed. This isn't just "unblurring"—it's the AI reconstructing the scene based on its deep understanding of visual patterns.
 
 <div align="center">
-  <img src="images/1.png.jpg" width="30%" />
-  <img src="images/2.png.jpg" width="30%" />
+  <img src="images/1.jpg" width="30%" />
+  <img src="images/2.jpg" width="30%" />
   <img src="images/final.jpg" width="30%" />
   <p>Figure 3 : Evolution of the Denoising Process from blurry to sharp</p>
 </div>
