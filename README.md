@@ -242,4 +242,12 @@ As seen in the images below, the model doesn't just "stretch" pixels; it underst
   <p>Figure 4 : High-resolution close-up portrait of an elderly man with detailed wrinkles, soft studio lighting, photorealistic, extremely detailed face.</p>
 </div>
 
+## 4. Simple Comparison
+
+| | 🟣 GAN — The Forger & the Detective | 🟢 VAE — The Sketch Artist | 🟠 Diffusion — The Puzzle Solver |
+|---|---|---|---|
+| **How it works** | Two AIs play a game: one draws fakes, the other catches them. They improve until the fakes look real. | Squishes an image into a tiny secret code, then redraws it from that code. | Covers an image with noise until it disappears, then learns to reverse the process. |
+| **Good at** | Sharp realistic images, fast generation, lots of variety | Easy to edit, reliable training, steerable output | Best quality today, works with text prompts |
+| **Not great at** | Can get stuck, hard to control, tricky to evaluate | Images can be blurry, small details get lost | Slow, needs a lot of computing power |
+| **Used for** | Fake face generation, super-resolution, training data | Anomaly detection, photo editing | DALL·E, Stable Diffusion, inpainting |
 ---
